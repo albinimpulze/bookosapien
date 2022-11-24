@@ -1,0 +1,278 @@
+body {
+    background-color: black;
+    border: 1px solid yellow;
+
+}
+@media only screen and (max-width:400px){
+    .logo{
+        max-width: 400px;
+        
+    }
+}
+   
+header {
+
+    background-color: black;
+    border: 1px solid yellow;
+    
+}
+
+.logo {
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 40px;
+    position: sticky;
+    top: 5px;
+
+}
+.header1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 20px;
+
+}
+
+.logo a img {
+    max-width: 170px;
+    justify-content: center;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo input {
+    
+    background-color: yellow;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.searchbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.searchbar input{
+    width:250px;
+    height: 40px;
+    min-width: 40px;
+    
+}
+
+
+.btn {
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border: 1px solid black;
+    border-radius: 20px;
+
+}
+
+.btn:hover {
+    background-color: aliceblue;
+}
+
+
+/* #sbutton { */
+/* background-color: yellow; */
+/* color: yellow; */
+/* height: 30px; */
+/* width: 30px; */
+/* margin-top: 12px; */
+/* border-radius: 60px; */
+
+/* } */
+
+.navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+    height: 10px;
+    align-items: center;
+
+}
+
+.navbar1 li {
+    list-style-type: none;
+    align-items: center;
+    border: 2px solid rgb(72, 72, 2);
+    border-radius: 20px;
+
+}
+
+.navbar1 li a {
+    text-decoration: none;
+    color: yellow;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px 10px;
+
+}
+
+#homebtn a {
+    color: antiquewhite;
+}
+
+.navbar2 {
+
+    list-style: none;
+    display: flex;
+    float: right;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+.navbar2 a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.navbar1 a:hover {
+    font-size: large;
+}
+
+/* #sbutton:hover{ */
+/* background-color: black; */
+/* } */
+.search:hover {
+
+    background-color: aliceblue;
+}
+
+.navbar2 a:hover {
+    font-size: large;
+}
+
+
+main {
+    color: white;
+}
+
+.manga img {
+    display: flex;
+    justify-content: flex-start;
+    max-width: -moz-available;
+
+}
+
+#examimg {
+    max-width: -moz-available;
+
+}
+
+.card {
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card-title {
+    color: yellow;
+    text-decoration: underline 1px;
+    text-align: center;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.card-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* justify-content:flex-start; */
+    width: 195px;
+}
+
+.buy:hover {
+    font-size: large;
+}
+
+.bookname {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.bookname:hover {
+    font-size: large;
+    color: antiquewhite;
+}
+
+.card img {
+    max-block-size: 125px;
+}
+
+.card h2 {
+    display: flex;
+    justify-content: center;
+    color: yellow;
+    text-decoration: underline 1px;
+    margin: 4px 0px;
+}
+
+.buy {
+    background-color: yellow;
+    max-width: 195px;
+    text-align: center;
+
+}
+
+.buy a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.seeall a {
+    text-decoration: none;
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.seeall:hover {
+    font-size: large;
+}
+
+
+.last ul a {
+    text-decoration: none;
+    color: yellow;
+}
+
+.last ul {
+    list-style: none;
+}
+
+.last {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.last ul h3 a {
+    color: aliceblue;
+    text-decoration: underline 1px;
+}
+
+.last ul li a:hover {
+    font-size: large;
+    color: aliceblue;
+}
+
+.footer div p {
+    color: yellow;
+    display: flex;
+    justify-content: center;
+}
